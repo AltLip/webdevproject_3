@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Devonshire&display=swap');
+
+#resumebody {
+  background-color: burlywood;
+}
+
+#michiganbody {
+  background-color: #6f827c;
+}
+
+#frutigerbody {
+  background-image: url("../images/frutigerbackground.jpeg");
+  color: white;
+  font-family: "frutiger", "arial";
+}
+
+.center {
+  text-align: center;
+}
+
+#title {
+  background-color: #D3D3D3;
+  color: black;
+  padding: 10px 0; 
+  text-align: center;
+}
+
+#navigation {
+  background-color: #D3D3D3; 
+  width: 100%;
+  text-align: center; 
+  position: relative; 
+  z-index: 100; 
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; 
+}
+
+#navigation ul li {
+  display: inline; 
+}
+
+#navigation ul li a {
+  padding: 10px 20px; 
+  color: black; 
+  text-decoration: none;
+}
+
+#navigation ul li a:hover {
+  background-color: #D3D3D3; 
+  color: black; 
+}
+
+#resumeintro {
+  color: white;
+}
+
+#education {
+  display: flex;
+  justify-content: center;
+  background-color: sandybrown;
+  padding: 15px;
+  border-radius: 70px;
+  box-shadow: 0px 4px 8px;
+  font-size: 1em;
+  font-family: "Georgia", "arial";
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border: 8px solid #7d7f7c
+}
+
+#education div {
+  position: relative;
+  left: 90px;
+}
+
+#volunteer {
+  display: flex;
+  justify-content: center;
+  background-color: sandybrown;
+  padding: 15px;
+  border-radius: 70px;
+  box-shadow: 0px 4px 8px;
+  font-size: 1em;
+  font-family: "Georgia", "arial";
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border: 8px solid #7d7f7c
+}
+
+#volunteer div {
+  position: relative;
+  left: 50px;
+}
+
+#activities {
+  display: flex;
+  justify-content: center;
+  background-color: sandybrown;
+  padding: 15px;
+  border-radius: 70px;
+  box-shadow: 0px 4px 8px;
+  font-size: 1em;
+  font-family: "Georgia", "arial";
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border: 8px solid #7d7f7c
+}
+
+#activities div {
+  position: relative;
+  left: 100px;
+}
+
+#personal {
+  display: flex;
+  justify-content: center;
+  background-color: sandybrown;
+  padding: 15px;
+  border-radius: 100px;
+  box-shadow: 0px 4px 8px;
+  font-size: 1em;
+  font-family: "Georgia", "arial";
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border: 8px solid #7d7f7c
+}
+
+#personal div {
+  position: relative;
+  left: 110px;
+}
+
+#introduction div {
+  background-color: #b8decc;
+  padding: 15px;
+  border-radius: 100px;
+  box-shadow: 2px 6px 10px;
+  color: black;
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 275px;
+  margin-right: 275px;
+  border: 8px solid black;
+}
+
+#skeuomorphism div {
+  background-color: #b8decc;
+  padding: 15px;
+  border-radius: 100px;
+  box-shadow: 2px 6px 10px;
+  color: black;
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 275px;
+  margin-right: 275px;
+  border: 8px solid black;
+}
+
+#popularity div {
+  background-color: #b8decc;
+  padding: 15px;
+  border-radius: 100px;
+  box-shadow: 2px 6px 10px;
+  color: black;
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 275px;
+  margin-right: 275px;
+  border: 8px solid black;
+}
+
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Roboto", "arial";
+  font-size: 1em;
+}
+
+.img-f {
+  width: 576px;
+  height: 432px;
+  border: 8px solid #7d7f7c;
+}
+
+.img-c {
+  width: 480px;
+  height: 304px;
+  border: 8px solid #7d7f7c;
+}
+
+.videoframe {
+  width: 720px;
+  height: 405px;
+  border: 8px solid white;
+}
+
+#intro div {
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 100px;
+  box-shadow: 2px 6px 10px;
+  opacity: 0.8;
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 8px solid #7d7f7c;
+}
+
+#intro h1 {
+  color: white;
+  font-family: "Devonshire", "arial";
+}
+
+#porch {
+  background-color: lightgrey;
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px;
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 8px solid #7d7f7c;
+}
+
+#kalhaven {
+  background-color: lightgrey;
+  padding: 15px;
+  border-radius: 100px;
+  box-shadow: 10px 10px 10px;
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 8px solid #7d7f7c;
+}
+
+#miscellaneous {
+  background-color: lightgrey;
+  padding: 15px;
+  border-radius: 100px;
+  box-shadow: 10px 10px 10px;
+  margin-bottom:50px;
+  padding-bottom:10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 8px solid #7d7f7c;
+}
+
+.img-large {
+  width: 900px ;
+  height: 507px ;
+  border: 8px solid #7d7f7c;
+}
+
+.img-small {
+  width: 600px ;
+  height: 450px ;
+  border: 8px solid #7d7f7c;
+}
+
+.img-portrait {
+  width: 450px ;
+  height: 600px ;
+  border: 8px solid #7d7f7c;
+}
