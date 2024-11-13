@@ -1,11 +1,15 @@
+/*shared*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Devonshire&display=swap');
 
 #resumebody {
   background-color: burlywood;
+  font-family: "frutiger", "arial";
 }
 
 #michiganbody {
   background-color: #6f827c;
+  font-family: "frutiger", "arial";
 }
 
 #frutigerbody {
@@ -19,7 +23,12 @@
 }
 
 nav ul li a {
-  
+  background-color: #89CFF0;
+  color: black;
+  padding: 10px 0; 
+  text-align: center;
+  border-radius: 70px;
+  border: 3px solid black;
 }
 
 #title {
@@ -58,6 +67,9 @@ nav ul li a {
   background-color: #D3D3D3; 
   color: black; 
 }
+
+
+/* resume */
 
 #resumeintro {
   color: white;
@@ -147,6 +159,8 @@ nav ul li a {
   left: 110px;
 }
 
+/* frutiger */
+
 #introduction div {
   background-color: #b8decc;
   padding: 15px;
@@ -210,6 +224,8 @@ p {
   height: 405px;
   border: 8px solid white;
 }
+
+/* michigan */
 
 #intro div {
   background-color: lightgrey;
@@ -282,3 +298,45 @@ p {
   height: 600px ;
   border: 8px solid #7d7f7c;
 }
+
+/* maps */
+
+#map {
+  height: 100%;
+  width: 50%;
+  border: 1px solid white;
+}
+
+body#google-maps {
+  background-color: #bfe3b4;
+  font-family: "frutiger", "arial";
+}
+
+#street-view {
+  height: 100%;
+  width: 50%;
+  border: 1px solid white;
+}
+
+#map-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 600px; 
+}
+
+#google-maps #header {
+  color: white;
+  margin: 0;
+}
+
+#google-maps #header h1 {
+  font-size: 2.5em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* media query */
+
+
+
+

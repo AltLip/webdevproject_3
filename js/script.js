@@ -1,7 +1,7 @@
 function initMap() {
   var el = document.getElementById('map');
-  var myLocation = new google.maps.LatLng(41.83722703444006, -87.62717306673116); // IIT John T. Rettaliata Engineering Center coordinates
-  
+  var myLocation = new google.maps.LatLng(42.403115, -86.275943); // IIT John T. Rettaliata Engineering Center coordinates
+
   var mapOptions = {
     center: myLocation,
     zoom: 18,
@@ -27,7 +27,7 @@ function initMap() {
     }
   });
 
-  var contentString = '<h1>John T. Rettaliata Engineering Center</h1><p>The engineering building of IIT. Home to the students and faculty of Armour College of Engineering.</p>';
+  var contentString = '<h1>West End of Downtown South Haven</h1><p>The western end of the South Haven downtown area. Just around the corner is this incredible hot dog restaurant called Chomp. I am starving right now. Send help. :( </p>';
 
   var infowindow = new google.maps.InfoWindow({
     content: contentString
