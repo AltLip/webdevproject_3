@@ -346,6 +346,11 @@ body#google-maps {
   font-size: 0.9em;
 }
 
+#navigation ul {
+  display: block;
+  text-align: center;
+}
+
 @media (max-width: 600px) { /** mobile **/
 
 
@@ -363,7 +368,3 @@ body#google-maps {
   margin: 5px 0;
 }
 
-
-#navigation ul li a {
-  font-size: 1em; 
-}
