@@ -299,6 +299,34 @@ p {
   border: 8px solid #7d7f7c;
 }
 
+
+#michiganbody ul.slider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bx-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent !important; /** changing the styling **/
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.bx-wrapper .bx-prev {
+  left: -15px !important; /** moves the left button a little more left **/
+}
+
+.bx-wrapper .bx-next {
+  right: -15px !important; /** moves the right button a little more right **/
+}
+
+
 /* maps */
 
 #map {

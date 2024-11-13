@@ -1,17 +1,17 @@
 function initMap() {
   var el = document.getElementById('map');
-  var myLocation = new google.maps.LatLng(42.403115, -86.275943); // IIT John T. Rettaliata Engineering Center coordinates
+  var myLocation = new google.maps.LatLng(42.403115, -86.275943);
 
   var mapOptions = {
     center: myLocation,
-    zoom: 18,
+    zoom: 16,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.TOP_LEFT
     },
-    zoomControl: true,  // add in zoom control
+    zoomControl: true,
     zoomControlOptions: {
-      position: google.maps.ControlPosition.LEFT_CENTER // change position of zoom control
+      position: google.maps.ControlPosition.LEFT_CENTER
     }
   };
 
@@ -21,10 +21,6 @@ function initMap() {
     position: myLocation,
     map: myMap,
     animation: google.maps.Animation.BOUNCE,
-    icon: {
-      url: 'images/thumbs-up.png', // add custom icon
-      scaledSize: new google.maps.Size(40, 40) // adjust the size of icon 
-    }
   });
 
   var contentString = '<h1>West End of Downtown South Haven</h1><p>The western end of the South Haven downtown area. Just around the corner is this incredible hot dog restaurant called Chomp. I am starving right now. Send help. :( </p>';
@@ -38,20 +34,16 @@ function initMap() {
   });
   
   // adding section location
-  var secondLocation = new google.maps.LatLng(41.83584739993229, -87.62837311364608); // Hermann Hall
+  var secondLocation = new google.maps.LatLng(42.402640, -86.282971); // North Beach
 
   var secondMarker = new google.maps.Marker({
     position: secondLocation,
     map: myMap,
     animation: google.maps.Animation.DROP, // Drop animation for the icon
-    icon: {
-      url: 'images/thumbs-up.png',
-      scaledSize: new google.maps.Size(40, 40)
-    }
   });
 
   var secondInfoWindow = new google.maps.InfoWindow({
-    content: '<h1>Hermann Hall</h1><p>A building that has the largest auditorium at IIT.</p>'
+    content: '<h1>North Beach and South Haven Pier</h1><p>This really fun part of town on the public beach with easy pier and harbor access.</p>'
   });
 
   google.maps.event.addListener(secondMarker, 'mouseover', function() {
