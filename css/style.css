@@ -1,4 +1,4 @@
-/*shared*/
+/*general*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Devonshire&display=swap');
 
@@ -393,6 +393,88 @@ body#google-maps {
   }
 }
 
-/***********************************************************************/
+/* testing */
 
+body#videogame {
+  margin: 0;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  background-image: url("../images/space1.jpeg");
+  background-size: cover;
+  text-align: center;
+}
+
+#videogame #header {
+  color: white;
+  margin: 0;
+}
+
+#videogame #header h1 {
+  font-size: 2.5em;
+}
+
+#videogame #page-wrapper {
+  width: 80rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#videogame ul {
+  list-style-position: inside;
+  display: inline-block;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+#videogame ul li {
+  margin-bottom: 10px; 
+}
+
+#videogame section {
+  background-color: #f9f9f9;
+  padding: 2em;
+  margin: 1em;
+  border-radius: 8px;
+  border: 1px solid #9FE2BF;
+  position: relative;
+  background-image: linear-gradient(to right top, #1c2951, #fcfbfe, #49151F); /* makes a gradient */
+}
+
+#videogame img { /* centers image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#videogame h2 {
+  margin: 0;
+}
+
+#videogame ul.slider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bx-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent !important; /** changing the styling **/
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.bx-wrapper .bx-prev {
+  left: -15px !important; /** moves the left button a little more left **/
+}
+
+.bx-wrapper .bx-next {
+  right: -15px !important; /** moves the right button a little more right **/
+}
 
