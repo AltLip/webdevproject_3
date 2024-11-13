@@ -365,6 +365,34 @@ body#google-maps {
 
 /* media query */
 
+@media (min-width: 1024px) { /** desktop **/
 
+#resumebody {
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) { /** mobile **/
+
+
+#resumebody {
+  font-size: 1.4em; 
+}
+
+#navigation ul {
+  display: block;
+  text-align: left;
+}
+
+#navigation ul li {
+  display: block;
+  margin: 5px 0;
+}
+
+#navigation ul li a {
+  font-size: 1em; 
+  }
+}
+
+/***********************************************************************/
 
 
