@@ -299,9 +299,6 @@ p {
   border: 8px solid #7d7f7c;
 }
 
-
-
-
 /* maps */
 
 #map {
@@ -351,6 +348,8 @@ body#google-maps {
   text-align: center;
 }
 
+}
+
 @media (max-width: 600px) { /** mobile **/
 
 
@@ -368,3 +367,4 @@ body#google-maps {
   margin: 5px 0;
 }
 
+}
