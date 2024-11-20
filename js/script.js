@@ -49,6 +49,24 @@ function initMap() {
   google.maps.event.addListener(secondMarker, 'mouseover', function() {
     secondInfoWindow.open(myMap, secondMarker);
   });
+
+  // adding third location
+
+  var thirdLocation = new google.maps.LatLng(42.403495, -86.282256); // "my house"
+
+  var thirdMarker = new google.maps.Marker({
+    position: thirdLocation,
+    map: myMap,
+    animation: google.maps.Animation.DROP, // Drop animation for the icon
+  });
+
+  var thirdInfoWindow = new google.maps.InfoWindow({
+    content: '<h1>My house</h1><p>This is my house! Just kidding. I am not dumb enough to dox myself. Pretty sure you can rent this house on Airbnb though.</p>'
+  });
+
+  google.maps.event.addListener(thirdMarker, 'mouseover', function() {
+    thirdInfoWindow.open(myMap, thirdMarker);
+  });
   
   // add custom street view
   var streetViewControl = new google.maps.StreetViewPanorama(document.getElementById('street-view'), {
